@@ -18,7 +18,7 @@ return Math.abs(block2 - block1) * feetPerBlock
 }
 
 function calculatesFarePrice(start, destination) {
-  let feetTraveled = distanceTravelledInFeet(start, destination)
+  let feetTraveled = distanceTravelledInFeet(start, destination) }
   if (feetTraveled < 400) {
     return 0
   } else if (feetTraveled) >= 400 && feetTraveled <= 2000) {
@@ -27,9 +27,7 @@ function calculatesFarePrice(start, destination) {
     return 25
   } else if ()
     
-  }
-}
-  }
+
 }
 
   
